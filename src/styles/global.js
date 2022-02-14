@@ -8,7 +8,7 @@ export default createGlobalStyle`
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
   }
   html {
     @media(max-width: 720px) {font-size: 87.5%;}
