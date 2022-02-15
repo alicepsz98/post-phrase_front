@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {api} from '../services/api';
+import { api } from '../services/api';
 
 export function useRequest(url, body, options) {
   const [data, setData] = useState(null);

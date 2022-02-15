@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useState } from 'react';
 import * as Style from './styles';
+import { apikey } from '../../services/api';
 import { useRequest } from '../../hooks/useRequest';
 import { CreatePostModal } from '../../components/CreatePostModal';
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
-import { config } from '../../config';
+import { PostCard } from '../../components/PostCard';
 
 const Home = () => {
   const [postedTo, setPostedTo] = useState('');
@@ -17,9 +17,7 @@ const Home = () => {
     phrase,
     author
   };
-  const { data, isLoading, createData } = useRequest('/phrases', body, {
-    apikey: config.APIKEY
-  }); 
+  const { data, isLoading, createData } = useRequest('/phrases', body, {apikey: apikey}); 
   return (
     <Style.HomeContainer>
       <Header 
@@ -27,16 +25,7 @@ const Home = () => {
       />
       {isLoading && <p>Carregando...</p>}
       <Style.PostCards>
-        {data?.map(phrase => {
-          return (
-            <div key={phrase.id}>
-              <h3>{phrase.posted_to}</h3>
-              <p>"{phrase.phrase}"</p>
-              <h4>{phrase.author}</h4>
-              <h4>{phrase.created_at}</h4>
-            </div>
-          )
-        })}
+        <PostCard data={data} />
       </Style.PostCards>
       <Footer />
       {openCreatePostModal && <CreatePostModal 

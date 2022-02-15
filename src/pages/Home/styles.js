@@ -22,9 +22,4 @@ export const PostCards = styled.div`
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
-  div {
-    width: 300px;
-    padding: 5px;
-    background: white;
-  }
 `;
