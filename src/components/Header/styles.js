@@ -1,25 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const HeaderContainer = styled.div`
+export const Container = styled.div`
   height: 60px;
   width: 100%;
-  background: grey;
+  background: #626161;
   color: white;
-  border-bottom: 1px solid black;
-  position: fixed;
-`;
-export const HeaderContent = styled.div`
-  width: 80%;
-  margin: auto;
-  height: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  button {
-    padding: 7px;
-    cursor: pointer;
-    box-shadow: 1px 1px 2px black;
-  }
 `;
 export const Logo = styled.div`
   display: flex;
