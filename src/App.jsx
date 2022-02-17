@@ -1,6 +1,6 @@
-import React from 'react';
-import GlobalStyles from './styles/global';
-import Home from './pages/Home';
+import React from "react";
+import GlobalStyles from "./styles/global";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -9,6 +9,6 @@ function App() {
       <GlobalStyles />
     </>
   );
-}
+};
 
 export default App;
