@@ -32,6 +32,7 @@ export const Container = styled.div`
     font-weight: bold;
     font-size: 17px;
     align-self: flex-end;
+    cursor: pointer;
   }
   p {
     text-align: left;
