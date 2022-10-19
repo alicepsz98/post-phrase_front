@@ -38,7 +38,7 @@ Platform to post and read beautiful phrases.
 - React
 - Axios
 - Moment
-- Styled components
+- Styled-components
 
 ---
 
