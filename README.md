@@ -1,15 +1,15 @@
 <h1 align="center">
-  📝 Post_Phrase
+  📝 PostPhrase (front-end) 🎨
 </h1>
 
 <br>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/alicepsz98/post-phrase?logo=javascript">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/alicepsz98/post-phrase_front?logo=javascript">
 
-  <img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/alicepsz98/post-phrase?color=pink">
+  <img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/alicepsz98/post-phrase_front?color=pink">
 
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/last-commit/alicepsz98/post-phrase">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/last-commit/alicepsz98/post-phrase_front">
 </p>
 
 ---
@@ -29,32 +29,16 @@
 
 ## 📝 The Project
 
-Platform to post and read beautiful phrases, with Supabase.
+Platform to post and read beautiful phrases. 
 
 ---
 
 ## 💻 Technologies
 
-### Tools
-
-- Visual Studio Code
-
-### Languages
-
-- HTML
-- CSS
-- JavaScript
-
-### Libraries
-
 - React
 - Axios
 - Moment
 - Styled components
-
-### Terminal 
-
-- Git Bash
 
 ---
 
@@ -64,10 +48,10 @@ Platform to post and read beautiful phrases, with Supabase.
 
 ```bash
   # Clone the repository
-  ❯ git clone https://github.com/alicepsz98/post-phrase.git
+  ❯ git clone https://github.com/alicepsz98/post-phrase_front.git
 
   # Enter directory
-  ❯ cd post-phrase
+  ❯ cd post-phrase_front
 ```
 
 - To install the dependencies and start the project, you can use Yarn or NPM:
